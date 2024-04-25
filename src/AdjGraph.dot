@@ -1,0 +1,33 @@
+digraph G {concentrate=true
+edge[arrowhead=none]
+3036
+3037
+3038
+3039
+3040 -> 3044 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3044
+3041 -> 3043 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3043 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3045
+3041 -> 3064 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3064 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3042 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3046
+3048 -> 3044 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3049 -> 3043 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3049 -> 3064 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3050 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3051
+3052
+3053 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3054 -> 3046 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3056
+3057
+3058
+3059
+3060
+3061
+3062
+3063
+
+}

@@ -1,3 +1,4 @@
+entrei
 ID: 3036
 Nome: Cliente-FATURA-HSJ
 
@@ -16,43 +17,43 @@ Nome: Cliente-FATURA-WFD-ARMAZENAMENTO
 
 ID: 3040
 Nome: Cliente-FATURA-WFD-ARMAZENAMNTO-ALEATORIO
-N贸s de backup: ID: 3044; 
+N髎 de backup: ID: 3044; 
 
 ID: 3041
 Nome: Cliente-FATURA-QUEBRAPDF-EMAIL
-N贸s de backup: ID: 3043; ID: 3064; 
+N髎 de backup: ID: 3043; ID: 3064; 
 
 ID: 3042
 Nome: Cliente-FATURA-QUEBRAPDF-ARMAZENAMENTO
-N贸s de backup: ID: 3045; 
+N髎 de backup: ID: 3045; 
 
 ID: 3043
 Nome: Cliente-FATURA-ACTION-EMAIL1aVIA
-N贸s da origem: ID: 3041; ID: 3049; N贸s de backup: ID: 3045; 
+N髎 da origem: ID: 3041; ID: 3049; N髎 de backup: ID: 3045; 
 
 ID: 3044
 Nome: Cliente-FATURA-INPUBLOG-DIGITAL
-N贸s da origem: ID: 3040; ID: 3048; 
+N髎 da origem: ID: 3040; ID: 3048; 
 
 ID: 3045
 Nome: Cliente-FATURA-CARGAECM-DIGITAL
-N贸s da origem: ID: 3042; ID: 3043; ID: 3050; ID: 3053; ID: 3064; 
+N髎 da origem: ID: 3042; ID: 3043; ID: 3050; ID: 3053; ID: 3064; 
 
 ID: 3046
 Nome: Cliente-FATURA-DPREPORT-FIMPROCESSO
-N贸s da origem: ID: 3054; 
+N髎 da origem: ID: 3054; 
 
 ID: 3048
 Nome: Cliente-FATURA-WFD-IMPRESSO-ALEATORIO
-N贸s de backup: ID: 3044; 
+N髎 de backup: ID: 3044; 
 
 ID: 3049
 Nome: Cliente-FATURA-WFD-IEEN
-N贸s de backup: ID: 3043; ID: 3064; 
+N髎 de backup: ID: 3043; ID: 3064; 
 
 ID: 3050
 Nome: Cliente-FATURA-WFD-IMPRESSO-ECM
-N贸s de backup: ID: 3045; 
+N髎 de backup: ID: 3045; 
 
 ID: 3051
 Nome: Cliente-FATURA-MOVERSPOOL-GRAFICA
@@ -64,11 +65,11 @@ Nome: Cliente-FATURA-MOVERSPOOL-ARQ.IMPI
 
 ID: 3053
 Nome: Cliente-FATURA-QUEBRAPDF-IMPRESSO
-N贸s de backup: ID: 3045; 
+N髎 de backup: ID: 3045; 
 
 ID: 3054
 Nome: Cliente-FATURA-MOVERSPOOL-ARQ.-EXCLUSAO
-N贸s de backup: ID: 3046; 
+N髎 de backup: ID: 3046; 
 
 ID: 3056
 Nome: Cliente-FATURA-MOVERSPOOL-ARQ.-CSV-DVA
@@ -104,6 +105,6 @@ Nome: Cliente-FATURA-DVA-FILE-UPLOAD
 
 ID: 3064
 Nome: Cliente-FATURA-ACTION-EMAIL2aVIA
-N贸s da origem: ID: 3041; ID: 3049; N贸s de backup: ID: 3045; 
+N髎 da origem: ID: 3041; ID: 3049; N髎 de backup: ID: 3045; 
 
 executado com sucesso

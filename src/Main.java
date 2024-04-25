@@ -37,7 +37,6 @@ public class Main {
                 auxList.add(currNode);
 
                 if (mapDestiny.containsKey(tokens[3])) {
-                    // System.out.println("entrei");
                     ArrayList<Node> list = mapDestiny.get(tokens[3]);
                     list.add(currNode);
                 } else {
