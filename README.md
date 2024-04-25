@@ -69,12 +69,28 @@ public static void main(String[] args) {
 ```
 
 ### readFile
-É o método responsável por ler o arquivo CSV pelo caminho 'filePath' e processar os seus dados
+É o método responsável por ler o arquivo CSV pelo caminho 'filePath' e processar os seus dados.
 
 #### Processamento do CSV
-O arquivo CSV é lido através de um 'FileReader', um 'Scanner' percorre cada conteúdo do arquivo, dois mapas são criados para armazenar os nós de backup e destino, uma lista auxiliar 'auxList' é criada para armazenar temporariamente os nós lidos do arquivo, a variável 'initialNode' é inicializada como nula e o cabeçalho do arquivo é ignorado.
+O arquivo CSV é lido através de um 'FileReader', um 'Scanner' percorre cada conteúdo do arquivo, dois mapas são criados para armazenar os nós de backup e destino, uma lista auxiliar 'auxList' é criada para armazenar temporariamente os nós lidos do arquivo, a variável do nó inicial 'initialNode' é inicializada como nula e o cabeçalho do arquivo é ignorado.
 
-![image](https://github.com/jcampolim/hackaton-dream-team/assets/93957694/33f79228-4cff-40e9-a661-3c52d412ebde)
+```
+    public static void readFile(String filePath) {
+        // Try reading the file path
+        try {
+            FileReader fileReader = new FileReader(filePath);
+            Scanner scanner = new Scanner(fileReader);
+            Map<String, ArrayList<Node>> mapBackup = new HashMap<>();
+            Map<String, ArrayList<Node>> mapDestiny = new HashMap<>();
+            ArrayList<Node> auxList = new ArrayList<>();
+            Node initialNode = null;
+
+            // Eliminating the csv's header
+            String line;
+            if (scanner.hasNextLine()) {
+                line = scanner.nextLine().strip();
+            }
+```
 
 #### Processamento das linhas
 Loop para processar cada linha do arquivo. Cada linha é lida, processada e os dados são armazenados em objetos Node.
