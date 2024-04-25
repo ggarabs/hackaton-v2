@@ -1,0 +1,109 @@
+ID: 3036
+Nome: Cliente-FATURA-HSJ
+
+
+ID: 3037
+Nome: Cliente-FATURA-WFD-EMAIL
+
+
+ID: 3038
+Nome: Cliente-FATURA-WFD-EMAIL-ALEATORIO
+
+
+ID: 3039
+Nome: Cliente-FATURA-WFD-ARMAZENAMENTO
+
+
+ID: 3040
+Nome: Cliente-FATURA-WFD-ARMAZENAMNTO-ALEATORIO
+Nós de backup: ID: 3044; 
+
+ID: 3041
+Nome: Cliente-FATURA-QUEBRAPDF-EMAIL
+Nós de backup: ID: 3043; ID: 3064; 
+
+ID: 3042
+Nome: Cliente-FATURA-QUEBRAPDF-ARMAZENAMENTO
+Nós de backup: ID: 3045; 
+
+ID: 3043
+Nome: Cliente-FATURA-ACTION-EMAIL1aVIA
+Nós da origem: ID: 3041; ID: 3049; Nós de backup: ID: 3045; 
+
+ID: 3044
+Nome: Cliente-FATURA-INPUBLOG-DIGITAL
+Nós da origem: ID: 3040; ID: 3048; 
+
+ID: 3045
+Nome: Cliente-FATURA-CARGAECM-DIGITAL
+Nós da origem: ID: 3042; ID: 3043; ID: 3050; ID: 3053; ID: 3064; 
+
+ID: 3046
+Nome: Cliente-FATURA-DPREPORT-FIMPROCESSO
+Nós da origem: ID: 3054; 
+
+ID: 3048
+Nome: Cliente-FATURA-WFD-IMPRESSO-ALEATORIO
+Nós de backup: ID: 3044; 
+
+ID: 3049
+Nome: Cliente-FATURA-WFD-IEEN
+Nós de backup: ID: 3043; ID: 3064; 
+
+ID: 3050
+Nome: Cliente-FATURA-WFD-IMPRESSO-ECM
+Nós de backup: ID: 3045; 
+
+ID: 3051
+Nome: Cliente-FATURA-MOVERSPOOL-GRAFICA
+
+
+ID: 3052
+Nome: Cliente-FATURA-MOVERSPOOL-ARQ.IMPI
+
+
+ID: 3053
+Nome: Cliente-FATURA-QUEBRAPDF-IMPRESSO
+Nós de backup: ID: 3045; 
+
+ID: 3054
+Nome: Cliente-FATURA-MOVERSPOOL-ARQ.-EXCLUSAO
+Nós de backup: ID: 3046; 
+
+ID: 3056
+Nome: Cliente-FATURA-MOVERSPOOL-ARQ.-CSV-DVA
+
+
+ID: 3057
+Nome: Cliente-FATURA-START
+
+
+ID: 3058
+Nome: Cliente-FATURA-2VIA-HSJ
+
+
+ID: 3059
+Nome: Cliente-FATURA-2VIA-ACTION-EMAIL
+
+
+ID: 3060
+Nome: Cliente-FATURA-2VIA-DPREPORT-FIMPROCESSAMENTO
+
+
+ID: 3061
+Nome: Cliente-FATURA-2VIA-DPREPORT-INDEXAR-DADOS-ANALITICO
+
+
+ID: 3062
+Nome: Cliente-FATURA-DPREPORT-INDEXARDADOSANALITICO
+
+
+ID: 3063
+Nome: Cliente-FATURA-DVA-FILE-UPLOAD
+
+
+ID: 3064
+Nome: Cliente-FATURA-ACTION-EMAIL2aVIA
+Nós da origem: ID: 3041; ID: 3049; Nós de backup: ID: 3045; 
+
+executado com sucesso
