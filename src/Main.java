@@ -7,12 +7,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Tree> tree = new ArrayList<>();
-        tree.add(new Tree());
-        readFile(tree, "./../baseparateste.csv");
+        readFile("./../baseparateste.csv");
     }
 
-    public static void readFile(ArrayList<Tree> tree, String filePath) {
+    public static void readFile(String filePath) {
         // Try reading the file path
         try {
             FileReader fileReader = new FileReader(filePath);
@@ -29,9 +27,11 @@ public class Main {
             }
 
             while (scanner.hasNextLine()) {
-                line = scanner.nextLine().strip().replace(" ", "");
-                String[] tokens = line.split(";");
+                line = scanner.nextLine().strip().toUpperCase();
+                line += " ";
 
+                String[] tokens = line.split(";");
+                
                 Node currNode = new Node(Integer.parseInt(tokens[0]), tokens[1], tokens[2], tokens[3], tokens[4]);
 
                 auxList.add(currNode);
@@ -41,17 +41,18 @@ public class Main {
                     list.add(currNode);
                 } else {
                     ArrayList<Node> newList = new ArrayList<>();
+                    newList.add(currNode);
                     mapDestiny.put(tokens[3], newList);
                 }
 
-                if (mapBackup.containsKey(tokens[4])) {
-                    ArrayList<Node> list = mapBackup.get(tokens[4]);
+                if (mapBackup.containsKey(tokens[4].strip())) {
+                    ArrayList<Node> list = mapBackup.get(tokens[4].strip());
                     list.add(currNode);
                 } else {
                     ArrayList<Node> newList = new ArrayList<>();
-                    mapBackup.put(tokens[4], newList);
+                    newList.add(currNode);
+                    mapBackup.put(tokens[4].strip(), newList);
                 }
-
             }
 
             for (Node currNode : auxList) {
@@ -68,7 +69,6 @@ public class Main {
                 }
 
                 if (mapDestiny.get(currNode.getOrigem()) != null) {
-                    System.out.println("entrei");
                     for (Node parentNode : mapDestiny.get(currNode.getOrigem())) {
                         // System.out.printf("Conectando ID %d a ID %d (Destino)\n", parentNode.getId(),
                         // currNode.getId());
@@ -105,7 +105,8 @@ public class Main {
             GraphPrinter gp = new GraphPrinter("AdjGraph");
 
             gp.addln("concentrate=true");
-            gp.addln("edge[arrowhead=none]");
+            gp.addln("edge[arrowhead=normal]");
+            gp.addln("node[shape=box]");
 
             for(Node aux : auxList){
                 if(!aux.getVisited()) Graph.dfsprintGraphNode(aux, gp);

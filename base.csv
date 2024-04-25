@@ -1,0 +1,7 @@
+ID;Nome;PastaOrigem;PastaDestino;PastaBackup
+1;Aplicacao1;C:\EntradaA\;C:\Entrada2\;C:\Guarda\
+2;Aplicacao2;C:\Entrada2\;C:\Aplicacao2Dest\;C:\Voa
+3;Aplicacao3;C:\Voa; ;C:\Guarda\
+4;Aplicacao4;C:\Entrada2\; ;C:\Guarda\
+5;Aplicacao5;C:\monitorada\3k\;C:\monitorada\ds\;C:\monitorada\Gd\
+6;Aplicacao6;C:\Aplicacao2Dest\; ;

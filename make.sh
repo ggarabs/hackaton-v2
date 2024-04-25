@@ -1,6 +1,9 @@
-rem Batch Script
+#!/bin/bash
+
+cd src
 
 javac *.java
+
 java Main.java > saida.txt
 
-del *.class
+rm -rf *.class

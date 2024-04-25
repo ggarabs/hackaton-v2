@@ -1,33 +1,43 @@
 digraph G {concentrate=true
-edge[arrowhead=none]
+edge[arrowhead=normal]
+node[shape=box]
 3036
-3037
-3038
-3039
-3040 -> 3044 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3037 -> 3043 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3043 -> 3045 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3045 -> 3046 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3046 -> 3062 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3062
+3037 -> 3064 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3064 -> 3045 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3064 -> 3062 [arrowhead=normal, color=orange, style=solid, penwidth=2]
+3038 -> 3044 [arrowhead=normal, color=purple, style=solid, penwidth=2]
 3044
-3041 -> 3043 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3043 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3045
-3041 -> 3064 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3064 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3042 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3046
-3048 -> 3044 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3049 -> 3043 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3049 -> 3064 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3050 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3051
+3039 -> 3045 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3040 -> 3044 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3041 -> 3043 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3041 -> 3064 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3042 -> 3045 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3048 -> 3044 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3049 -> 3043 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3049 -> 3064 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3050 -> 3045 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3051 -> 3049 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3051 -> 3050 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3051 -> 3052 [arrowhead=normal, color=purple, style=solid, penwidth=2]
 3052
-3053 -> 3045 [arrowhead=normal, color=red, style=solid, penwidth=2]
-3054 -> 3046 [arrowhead=normal, color=red, style=solid, penwidth=2]
+3053 -> 3045 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3054 -> 3046 [arrowhead=normal, color=purple, style=solid, penwidth=2]
 3056
 3057
 3058
-3059
-3060
+3059 -> 3060 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3060 -> 3061 [arrowhead=normal, color=purple, style=solid, penwidth=2]
 3061
-3062
 3063
+3065
+3066 -> 3058 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3066 -> 3066 [arrowhead=normal, color=purple, style=solid, penwidth=2]
+3066 -> 3058 [arrowhead=normal, color=orange, style=solid, penwidth=2]
+3066 -> 3066 [arrowhead=normal, color=orange, style=solid, penwidth=2]
 
 }
