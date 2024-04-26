@@ -12,7 +12,7 @@ Código: HIPER-155
     - [Exemplo de Dados](#exemplo-de-dados)
 - [Como Executar o Programa](#como-executar-o-programa)
     - [Pré-requisitos](#pré-requisitos)
-    - [Modo de Execução para Diferentes Sisemas Operacionais](#modo-de-execução-para-diferentes-sistemas-operacionais)
+    - [Modo de Execução para Diferentes Sistemas Operacionais](#modo-de-execução-para-diferentes-sistemas-operacionais)
 - [Solução Desenvolvida](#solução-desenvolvida)
 - [Fundamentando as Decisões](#fundamentando-as-decisoes)
     - [Linguagem de Programação: Java](#linguagem-de-programação-java)
@@ -88,11 +88,7 @@ O Diagrama não precisa necessariamente seguir o do exemplo [Modelo de Dados](#m
     - Adicionar o Graphviz ao PATH do Sistema
         - "Painel de Controle" -> "Sistema" -> "Configurações Avançadas do Sistema" -> "Variáveis de Ambiente" -> "Path" -> "Editar" -> Adicionar o caminho para o diretório bin do Graphviz (e.g. "C:\Arquivos de Programas\Graphviz\bin") -> "OK"   
     - Verificar a instalação
-        - No prompt de comando, digitar
-        
-        ```cmd
-        dot -V
-        ```
+        - No prompt de comando, digitar: `dot -V`.
 
 - Linux
     - Para a 1ª vez, é necessário tornar o shell script executável, do seguinte modo: `chmod + x make.sh`
