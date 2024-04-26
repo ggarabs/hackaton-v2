@@ -61,8 +61,6 @@ public class Main {
 
                 if (mapBackup.get(currNode.getOrigem()) != null) {
                     for (Node parentNode : mapBackup.get(currNode.getOrigem())) {
-                        // System.out.printf("Conectando ID %d a ID %d (Backup)\n", parentNode.getId(),
-                        // currNode.getId());
                         parentNode.addBackup(currNode);
                         currNode.addOrigem(parentNode);
                     }
@@ -70,8 +68,6 @@ public class Main {
 
                 if (mapDestiny.get(currNode.getOrigem()) != null) {
                     for (Node parentNode : mapDestiny.get(currNode.getOrigem())) {
-                        // System.out.printf("Conectando ID %d a ID %d (Destino)\n", parentNode.getId(),
-                        // currNode.getId());
                         parentNode.addDestino(currNode);
                         currNode.addOrigem(parentNode);
                     }
@@ -114,9 +110,7 @@ public class Main {
 
             gp.print();
 
-        } catch (
-
-        FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
         }
     }

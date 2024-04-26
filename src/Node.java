@@ -99,7 +99,6 @@ public class Node {
     }
 
     @Override
-
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("ID: " + id + "\n")
