@@ -27,9 +27,8 @@ public class Main {
             }
 
             while (scanner.hasNextLine()) {
-                line = scanner.nextLine().strip().toUpperCase();
-                line += " ";
-
+                line = scanner.nextLine().strip().toUpperCase().replace(";;", "; ;").concat(" ");
+                System.out.println(line);
                 String[] tokens = line.split(";");
                 
                 Node currNode = new Node(Integer.parseInt(tokens[0]), tokens[1], tokens[2], tokens[3], tokens[4]);
